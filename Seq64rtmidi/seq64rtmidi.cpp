@@ -197,7 +197,7 @@ main (int argc, char * argv [])
                         temp, sizeof temp,
                         "? MIDI file not found: %s\n", fname.c_str()
                     );
-                    printf(temp);
+                    printf("%s", temp);
                     ok = false;
                     extant_errmsg = temp;
                     extant_msg_active = true;
